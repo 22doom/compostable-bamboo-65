@@ -37,7 +37,7 @@ public abstract class ComposterBlockMixin {
 
     @Inject(method = "registerDefaultCompostableItems", at = @At("TAIL"))
     private static void compostableBamboo$registerCompostable(CallbackInfo ci) {
-		registerCompostableItem(0.3F, Items.BAMBOO);
+		registerCompostableItem(0.65F, Items.BAMBOO);
 
 	}
 
